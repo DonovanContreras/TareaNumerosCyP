@@ -1,0 +1,87 @@
+#DOS NUMEROS, UNO MAYOR QUE OTRO
+
+numero1 = int(input("Ingresa un número entero:"))
+numero2 = int(input("Ingresa otro número entero:"))
+
+if numero1 > numero2 :
+    print("El número mayor es:")
+    print(numero1)
+elif numero2 > numero1 :
+    print("El número mayor es:")
+    print(numero1)
+if numero1 < numero2 :
+    print("El número menor es:")
+    print(numero1)
+elif numero2 < numero1 :
+    print("El número menor es:")
+    print(numero2)
+elif numero1 == numero2:
+    print("Son números iguales")
+    
+    
+    #TRES NUMEROS, CUAL ES MAYOR
+    
+    numero1 = int(input("Ingresa un número entero:"))
+numero2 = int(input("Ingresa un número entero diferente al primero:"))
+numero3 = int(input("Ingresa un número entero diferente a los otros dos:"))
+
+if numero1 > numero2 and numero3 :
+    print("El número mayor es:")
+    print(numero1)
+elif numero2 > numero3 and numero1 :
+    print("El número mayor es:")
+    print(numero2)
+elif numero3 > numero1 and numero2 :
+    print("El número mayor es")
+    print(numero3)
+    
+    #TRES NUMEROS, CUAL ES MENOR
+    
+    numero1 = int(input("Ingresa un número entero:"))
+numero2 = int(input("Ingresa un número entero diferente al primero:"))
+numero3 = int(input("Ingresa un número entero diferente a los otros dos:"))
+
+if numero1 < numero2 and numero3 :
+    print("El número menor es:")
+    print(numero1)
+elif numero2 < numero3 and numero1 :
+    print("El número menor es:")
+    print(numero2)
+elif numero3 < numero1 and numero2 :
+    print("El número menor es")
+    print(numero3)
+    
+    #CUATRO NUMEROS, CUAL ES MAYOR Y CUAL ES MENOR
+
+numero1 = int(input("Ingresa un número entero:"))
+numero2 = int(input("Ingresa un número entero diferente al primero:"))
+numero3 = int(input("Ingresa un número entero diferente a los otros dos:"))
+numero4 = int(input("Ingresa un número entero diferente a los otros tres:"))
+
+if numero1 > numero2 and numero3 and numero4 :
+    print("El número mayor es:")
+    print(numero1)
+elif numero2 > numero3 and numero4 and numero1 :
+    print("El número mayor es:")
+    print(numero2)
+elif numero3 > numero4 and numero1 and numero2 :
+    print("El número mayor es:")
+    print(numero3)
+elif numero4 > numero1 and numero2 and numero3 :
+    print("El número mayor es")
+    print(numero4)
+
+if numero1 < numero2 and numero3 and numero4 :
+    print("El número menor es:")
+    print(numero1)
+elif numero2 < numero3 and numero4 and numero1 :
+    print("El número menor es:")
+    pritt(numero2)
+elif numero3 < numero4 and numero1 and numero2 :
+    print("El número menor es:")
+    print(numero3)
+elif numero4 < numero1 and numero2 and numero3 :
+    print("El número menor es:")
+    print(numero4)
+
+    
